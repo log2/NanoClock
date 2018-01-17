@@ -12,12 +12,11 @@ class NanoClockSpec extends FlatSpec with Matchers {
     val instantNanoClock = Instant.now(nanoClock)
     val instantAfter = Instant.now()
 
-    println(instantBefore)
-    println(instantNanoClock)
-    println(instantAfter)
+    println("   Before: " + instantBefore)
+    println("NanoClock: " + instantNanoClock)
+    println("    After: " + instantAfter)
     
     instantNanoClock should be > instantBefore
     instantNanoClock should be < instantAfter
   }
 }
-
