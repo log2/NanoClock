@@ -2,6 +2,7 @@ package logtwo;
 
 import java.time.*;
 
+//Copied from https://stackoverflow.com/a/38658066/263306
 public class NanoClock extends Clock
 {
     private final Clock clock;
