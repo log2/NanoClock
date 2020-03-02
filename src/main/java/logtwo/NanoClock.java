@@ -19,8 +19,8 @@ public class NanoClock extends Clock
     public NanoClock(final Clock clock)
     {
         this.clock = clock;
-        initialInstant = clock.instant();
         initialNanos = getSystemNanos();
+        initialInstant = clock.instant();
     }
 
     @Override
