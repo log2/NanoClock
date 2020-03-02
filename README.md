@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/gabrieljones/NanoClock.svg?branch=master)](https://travis-ci.org/gabrieljones/NanoClock)
+[![Build Status](https://travis-ci.org/log2/NanoClock.svg?branch=master)](https://travis-ci.org/gabrieljones/NanoClock)
 
 # NanoClock
 
